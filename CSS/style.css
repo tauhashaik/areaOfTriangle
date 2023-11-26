@@ -38,3 +38,32 @@ body{
 #group{
     border: solid aqua 3px;
 }
+
+
+@media screen and (max-width: 300px) {
+    #input1,
+    #input2,
+    #output {
+        width: 90%;
+        margin: auto;
+    }
+    
+    #group {
+        width: 90%;
+        margin: auto;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    #input1,
+    #input2,
+    #output {
+        width: 90%;
+        margin: auto;
+    }
+
+    #group {
+        width: 90%;
+        margin: auto;
+    }
+}
